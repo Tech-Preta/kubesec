@@ -1,0 +1,5 @@
+Choose one of the options below:
+1. Remote scanning      (scans one or more specific IPs or DNS names)
+2. Interface scanning   (scans subnets on all local network interfaces)
+3. IP range scanning    (scans a given IP range)
+Your choice: 

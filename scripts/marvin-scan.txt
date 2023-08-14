@@ -1,0 +1,36 @@
+SEVERITY   ID      CHECK                                                   STATUS   FAILED   PASSED   SKIPPED 
+[31mHigh[0m       M-201   Application credentials stored in configuration files   [31mFailed[0m   167      651      0         
+[31mHigh[0m       M-104   HostPath volume                                         [31mFailed[0m   123      426      0         
+[31mHigh[0m       M-101   Host namespaces                                         [31mFailed[0m   102      447      0         
+[31mHigh[0m       M-102   Privileged container                                    [31mFailed[0m   88       461      0         
+[31mHigh[0m       M-105   Not allowed hostPort                                    [31mFailed[0m   25       524      0         
+[31mHigh[0m       M-103   Insecure capabilities                                   [31mFailed[0m   12       537      0         
+[31mHigh[0m       M-100   Privileged access to the Windows node                   [32mPassed[0m   0        549      0         
+[33mMedium[0m     M-407   CPU not limited                                         [31mFailed[0m   487      62       0         
+[33mMedium[0m     M-405   CPU requests not specified                              [31mFailed[0m   383      166      0         
+[33mMedium[0m     M-406   Memory not limited                                      [31mFailed[0m   383      166      0         
+[33mMedium[0m     M-404   Memory requests not specified                           [31mFailed[0m   369      180      0         
+[33mMedium[0m     M-113   Container could be running as root user                 [31mFailed[0m   330      219      0         
+[33mMedium[0m     M-403   Liveness probe not configured                           [31mFailed[0m   289      249      0         
+[33mMedium[0m     M-402   Readiness and startup probe not configured              [31mFailed[0m   270      268      0         
+[33mMedium[0m     M-400   Image tagged latest                                     [31mFailed[0m   27       522      0         
+[33mMedium[0m     M-112   Allowed privilege escalation                            [31mFailed[0m   12       537      0         
+[33mMedium[0m     M-106   Forbidden AppArmor profile                              [32mPassed[0m   0        549      0         
+[33mMedium[0m     M-107   Forbidden SELinux options                               [32mPassed[0m   0        549      0         
+[33mMedium[0m     M-108   Forbidden proc mount type                               [32mPassed[0m   0        549      0         
+[33mMedium[0m     M-109   Forbidden seccomp profile                               [32mPassed[0m   0        549      0         
+[33mMedium[0m     M-110   Unsafe sysctls                                          [32mPassed[0m   0        549      0         
+[33mMedium[0m     M-200   Image registry not allowed                              [32mPassed[0m   0        549      0         
+[34mLow[0m        M-202   Automounted service account token                       [31mFailed[0m   511      38       0         
+[34mLow[0m        M-115   Not allowed seccomp profile                             [31mFailed[0m   509      40       0         
+[34mLow[0m        M-116   Not allowed added/dropped capabilities                  [31mFailed[0m   483      66       0         
+[34mLow[0m        M-300   Root filesystem write allowed                           [31mFailed[0m   394      155      0         
+[34mLow[0m        M-111   Not allowed volume type                                 [31mFailed[0m   123      426      0         
+[34mLow[0m        M-114   Container running as root UID                           [31mFailed[0m   45       504      0         
+[34mLow[0m        M-401   Unmanaged Pod                                           [31mFailed[0m   1        255      0         
+[34mLow[0m        M-203   SSH server running inside container                     [32mPassed[0m   0        698      0         
+[33;1m
+           Now you can use Marvin as a Zora plugin and see the results in a dashboard.
+           Access the documentation for more details:    https://zora-docs.undistro.io
+
+[0m
